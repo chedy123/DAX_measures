@@ -1,0 +1,5 @@
+compared scene = 
+CALCULATE(
+    [sums]
+    , FILTER(Scenario
+    ,'Scenario'[Scenario]=SELECTEDVALUE('user compared scene'[Scenario])))
