@@ -1,0 +1,1 @@
+Date.AddMonths(Date.StartOfMonth(Date.From(DateTime.LocalNow())),-1))
