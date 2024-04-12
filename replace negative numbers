@@ -1,0 +1,2 @@
+= Table.TransformColumns(#"Added Custom6",
+{{"fte_forecast",each List.Max({_,0})}})
