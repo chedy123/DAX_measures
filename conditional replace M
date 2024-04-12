@@ -1,0 +1,4 @@
+= Table.ReplaceValue(#"Changed Type", 
+each [Product Name],
+each if Text.Contains( [Product Name], "bike") then "Bike" else "Accessory",
+Replacer.ReplaceText,{"Product Name"})
